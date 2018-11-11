@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: oauth
+  profiles:
+    active: dev
+server.port: 9998
+spring.cloud.config.uri: http://myconfigserver.com

@@ -1,0 +1,8 @@
+spring.application.name: cloud-config
+server.port: 9999
+spring.cloud.config:
+  label: master
+  server:
+    git:
+      uri: https://github.com/cocokka/config-repo
+      searchPaths: '{application}'
