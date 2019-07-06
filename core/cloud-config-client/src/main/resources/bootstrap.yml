@@ -11,24 +11,21 @@ spring:
 
 ---
 spring:
-  profiles:
-    active: dev
+  profiles: dev
   cloud:
     config:
       profile: dev
 
 ---
 spring:
-  profiles:
-    active: uat
+  profiles: uat
   cloud:
     config:
       profile: uat
 
 ---
 spring:
-  profiles:
-    active: prod
+  profiles: prod
   cloud:
     config:
       profile: prod

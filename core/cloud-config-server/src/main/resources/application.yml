@@ -4,5 +4,5 @@ spring.cloud.config:
   label: master
   server:
     git:
-      uri: https://github.com/cocokka/raft/cloud-config-repo
+      uri: https://github.com/cocokka/config-repo
       searchPaths: /cloud-config-client
