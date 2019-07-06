@@ -12,7 +12,7 @@
     <artifactId>core</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>cloud-config</module>
+        <module>cloud-config-server</module>
         <module>oauth</module>
     </modules>
 
