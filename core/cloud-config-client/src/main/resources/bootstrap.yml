@@ -1,0 +1,8 @@
+spring:
+  application:
+    # 对应cloud server配置文件的{application}
+    name: cloud-config-client
+  cloud:
+    config:
+      uri: http://localhost:9999/
+      label: master

@@ -9,21 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>core</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>cloud-config-server</module>
-        <module>oauth</module>
-        <module>cloud-config-client</module>
-    </modules>
+    <artifactId>cloud-config-repo</artifactId>
 
-
-    <dependencies>
-        <dependency>
-            <groupId>com.awu</groupId>
-            <artifactId>common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-    </dependencies>
-
+    <build>
+        <finalName>cloud-config-repo</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

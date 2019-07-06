@@ -12,11 +12,7 @@
     <artifactId>cloud-config-server</artifactId>
     <packaging>jar</packaging>
 
-    <name>cloud-config</name>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>cloud-config-server</name>
 
     <dependencies>
         <dependency>
@@ -30,7 +26,7 @@
     </dependencies>
 
     <build>
-        <finalName>cloud-config</finalName>
+        <finalName>cloud-config-server</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
