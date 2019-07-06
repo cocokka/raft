@@ -1,4 +1,4 @@
-spring.application.name: cloud-config-demo
+spring.application.name: cloud-config-server
 server.port: 9999
 spring.cloud.config:
   label: master
