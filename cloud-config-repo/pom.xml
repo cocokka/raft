@@ -11,13 +11,4 @@
 
     <artifactId>cloud-config-repo</artifactId>
 
-    <build>
-        <finalName>cloud-config-repo</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>

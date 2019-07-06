@@ -6,3 +6,29 @@ spring:
     config:
       uri: http://localhost:9999/
       label: master
+
+
+
+---
+spring:
+  profiles:
+    active: dev
+  cloud:
+    config:
+      profile: dev
+
+---
+spring:
+  profiles:
+    active: uat
+  cloud:
+    config:
+      profile: uat
+
+---
+spring:
+  profiles:
+    active: prod
+  cloud:
+    config:
+      profile: prod
