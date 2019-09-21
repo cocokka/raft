@@ -23,3 +23,7 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+/core/cloud-config-client/target/
+/core/cloud-config-server/target/
+/common/target/
+/core/oauth/target/
