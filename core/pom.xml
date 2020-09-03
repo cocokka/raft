@@ -11,11 +11,6 @@
 
     <artifactId>core</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>cloud-config-server</module>
-        <module>oauth</module>
-        <module>cloud-config-client</module>
-    </modules>
 
 
     <dependencies>

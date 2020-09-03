@@ -27,3 +27,4 @@
 /core/cloud-config-server/target/
 /common/target/
 /core/oauth/target/
+/services/regression/target/
